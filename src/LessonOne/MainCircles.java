@@ -20,7 +20,7 @@ public class MainCircles extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(POS_X,POS_Y,WINDOW_WIDTH,WINDOW_HEIGHT);
         setTitle("Circles");
-        getContentPane().setBackground(Color.BLUE);//отдаленно понимаю почему цвет канвы не меняется ()
+        getContentPane().setBackground(Color.BLUE);//отдаленно понимаю почему цвет канвы не меняется
         GameCanvas canvas = new GameCanvas(this);
         initApplication();
         add(canvas);
