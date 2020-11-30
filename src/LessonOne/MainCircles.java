@@ -56,6 +56,7 @@ public class MainCircles extends JFrame {
         spritesCount++;
     }
     private void deleteBall(){
+        if(spritesCount>0)
         spritesCount--;// удаляет последний вылетевший шарик
     }
     public void onDrawFrame(GameCanvas canvas, Graphics g, float deltaTime){
